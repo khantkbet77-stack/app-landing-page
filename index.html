@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TKBET77 Official App</title>
     <style>
-        /* প্রিমিয়াম ডার্ক গোল্ডেন ব্যাকগ্রাউন্ড */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: radial-gradient(circle, #0d381e 0%, #061c0e 100%);
@@ -18,10 +17,9 @@
             color: #ffffff;
         }
 
-        /* মেইন কন্টেইনার */
         .landing-box {
             background-color: #0b2416;
-            border: 2px solid #d4af37; /* গোল্ডেন বর্ডার */
+            border: 2px solid #d4af37;
             border-radius: 20px;
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6), 0 0 15px rgba(214, 175, 55, 0.2);
             text-align: center;
@@ -31,27 +29,27 @@
             margin: 20px 0;
         }
 
-        /* ব্যানার ইমেজ স্টাইলিং */
         .banner-img {
             width: 100%;
             height: auto;
             display: block;
             border-bottom: 2px solid #d4af37;
+            background-color: #061c0e;
+            min-height: 150px; /* ইমেজ লোড না হলেও স্পেস ধরে রাখবে */
         }
 
-        /* কন্টেন্ট এরিয়া */
         .content {
             padding: 30px 20px;
         }
 
-        /* লোগো অ্যানিমেশন (Floating Effect) */
         .logo-container {
-            margin-top: -60px; /* ব্যানার ও কন্টেন্টের মাঝে সেট করার জন্য */
+            margin-top: -60px;
         }
 
         .app-logo {
             width: 100px;
-            height: auto;
+            height: 100px;
+            object-fit: contain;
             filter: drop-shadow(0 4px 8px rgba(0,0,0,0.5));
             animation: floatAnimation 3s ease-in-out infinite;
         }
@@ -62,9 +60,8 @@
             100% { transform: translateY(0px); }
         }
 
-        /* টাইটেল ও বিডি ফ্ল্যাগ */
         h1 {
-            color: #d4af37; /* গোল্ডেন কালার */
+            color: #d4af37;
             font-size: 32px;
             margin: 15px 0 5px 0;
             text-shadow: 0 2px 4px rgba(0,0,0,0.5);
@@ -85,7 +82,6 @@
             line-height: 1.6;
         }
 
-        /* আকর্ষণীয় অ্যাকশন ডাউনলোড বাটন */
         .download-btn {
             display: inline-block;
             background: linear-gradient(135deg, #ffe066 0%, #d4af37 50%, #aa8515 100%);
@@ -107,7 +103,6 @@
             transform: translateY(-3px) scale(1.03);
         }
 
-        /* সিকিউরিটি সেকশন */
         .security-note {
             margin-top: 25px;
             font-size: 14px;
@@ -127,25 +122,21 @@
 <body>
 
     <div class="landing-box">
-        <!-- আপনার দেওয়া ব্যানার ইমেজ -->
-        <img src="689702310_122094785019309345_4763763733411634234_n_3.jpg" alt="TKBET77 Banner" class="banner-img">
+        <!-- ব্যানার ইমেজ লোড করার সহজ রুট লিঙ্ক -->
+        <img src="./689702310_122094785019309345_4763763733411634234_n_3.jpg" alt="TKBET77 Banner" class="banner-img" onerror="this.src='689702310_122094785019309345_4763763733411634234_n_3.JPG'">
         
         <div class="content">
-            <!-- অ্যানিমেশনসহ আপনার দেওয়া লোগো -->
+            <!-- লোগো ইমেজ লোড করার সহজ রুট লিঙ্ক -->
             <div class="logo-container">
-                <img src="icon_3.png" alt="TKBET77 Logo" class="app-logo">
+                <img src="./icon_3.png" alt="TKBET77 Logo" class="app-logo" onerror="this.src='icon_3.PNG'">
             </div>
 
-            <!-- নাম এবং বিডি লোগো/ফ্ল্যাগ -->
             <h1>TKBET77 <span class="bd-flag">🇧🇩</span></h1>
             
-            <!-- আকর্ষণীয় টেক্সট -->
             <p>অফিশিয়াল অ্যান্ড্রয়েড অ্যাপটি ডাউনলোড করুন এবং লুফে নিন ২৫০% ফার্স্ট ডিপোজিট বোনাস!</p>
             
-            <!-- ডাউনলোড বাটন -->
             <a href="https://github.com/khantkbet77-stack/TK77-apps/releases/download/tkbet77/tkbet77.1.apk" class="download-btn">Download APK</a>
             
-            <!-- ভেরিফাইড নোট -->
             <div class="security-note">
                 ✓ <span>১০০% নিরাপদ</span> এবং অফিশিয়াল ডাউনলোড লিংক
             </div>
